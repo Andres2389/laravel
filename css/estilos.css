@@ -1,0 +1,36 @@
+body
+{
+    background: white;
+    color: #333;
+    text-align: left;
+    font-family: 'works family';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.img-fluid {
+ width: 300px; 
+ margin: 20px 15px; 
+ padding: 20px;
+}
+form{
+    width: 400px;
+    height: 700px;
+    padding: 5% ;
+     margin:auto;
+     background-color: #a8a2a2;
+     box-shadow: #385c57;
+}
+
+#primer-texto{
+    color:black;  font-family: work sans;
+     font-weight: 600;
+     font-size: 55px;
+      padding: 30px 15px;
+}
+
+.form-control{
+    border-radius: 15px 15px ;
+    border-color: #385c57;
+}
+
