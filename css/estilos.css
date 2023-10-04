@@ -1,22 +1,25 @@
 body
 {
-    background: white;
+    background: #00324d ;
     color: #333;
     text-align: left;
     font-family: 'works family';
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
 }
 .img-fluid {
- width: 300px; 
- margin: 20px 15px; 
- padding: 20px;
+ width: 280px; 
+ height: 150px;
+ margin: 10px 15px; 
+ padding: 15px;
 }
 form{
-    width: 400px;
-    height: 700px;
-    padding: 5% ;
+    width: 395px;
+    height: 660px;
+    padding: 5px ;
+    border-radius: 15px 15px;
+    box-shadow: #333;
      margin:auto;
      background-color: #a8a2a2;
      box-shadow: #385c57;
@@ -26,11 +29,13 @@ form{
     color:black;  font-family: work sans;
      font-weight: 600;
      font-size: 55px;
-      padding: 30px 15px;
+      padding: 15px ;
 }
 
 .form-control{
     border-radius: 15px 15px ;
     border-color: #385c57;
 }
-
+.corousel{
+    margin: 10px;
+}
