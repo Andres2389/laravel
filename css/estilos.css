@@ -28,10 +28,23 @@ box-shadow: #333;
  margin: 5px 15px; 
  padding: 10px;
 }
+
+.btn-1{
+    margin: 10px;
+    padding: 5px;
+    float: right ;
+    overflow: hidden;
+    left: 10px; 
+    background-color: #a8a2a2;
+}
+.btn-1:hover{
+    background-color: #385c57;
+}
 .carousel slide{
 border-radius: 15px;
 margin: 5px;
 }
+
 form{
     width: 395px;
     height: 660px;
