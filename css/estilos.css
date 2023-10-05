@@ -1,34 +1,55 @@
 body
 {
-    background: #00324d ;
-    color: #333;
+    background:linear-gradient(to right ,#000,#333,#00324d) ;
+    background-attachment: fixed;
     text-align: left;
     font-family: 'works family';
     font-size: 16px;
     margin: 5px;
     padding: 5px;
+    transition: all 3s;
+}
+#cabecera{
+    
+    background:linear-gradient(to right ,#333,#FBFBF2,#00324d) ;
+    border-radius: 15px;
+    border: #a8a2a2;
+    box-sizing: 5px;
+    box-shadow: #a8a2a2;
+    margin: 15px;
 }
 .img-fluid {
- width: 280px; 
- height: 150px;
- margin: 10px 15px; 
- padding: 15px;
+
+justify-content: center;
+border-radius: 15px 15px;
+box-shadow: #333;
+ width: 300px; 
+ height: 100px;
+ margin: 5px 15px; 
+ padding: 10px;
+}
+.carousel slide{
+border-radius: 15px;
+margin: 5px;
 }
 form{
     width: 395px;
     height: 660px;
+    margin:auto;
     padding: 5px ;
+    overflow: hidden;
+    text-align: center;
+    background:linear-gradient(to left ,#FBFBF2 ,#a8a2a2) ;
     border-radius: 15px 15px;
     box-shadow: #333;
-     margin:auto;
-     background-color: #a8a2a2;
      box-shadow: #385c57;
 }
 
 #primer-texto{
-    color:black;  font-family: work sans;
+    color: #00324d; 
+     font-family: work sans;
      font-weight: 600;
-     font-size: 55px;
+     font-size: 50px;
       padding: 15px ;
 }
 
@@ -38,4 +59,16 @@ form{
 }
 .corousel{
     margin: 10px;
+}
+.formtext{
+    float: right;
+}
+.btn {
+    border-radius: 15px;
+    background-color: #39A900;
+    border-color: #39A900;
+}
+
+.btn:hover {
+    background-color: #00324d; 
 }
