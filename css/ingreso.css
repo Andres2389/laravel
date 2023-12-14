@@ -1,19 +1,13 @@
+.body{
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'works family';
+    font-size: 16px;
+    transition: all 3s; 
 
-*{
-    margin: 0;
-    padding: 0;
-
 }
 
-#punta{
-    width: 400px;
-    height: 120px;
-    background-color: aqua;
-}
-.nav{
-    display: inline-block;
-    font-size: 35px;
-}
-hr{
-    color: aqua;
-}
+
