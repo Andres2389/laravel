@@ -1,85 +1,56 @@
-body
-{
-    background:linear-gradient(to right ,#FBFBF2,white) ;
-    background-attachment: fixed;
-    text-align: left;
+body {
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'works family';
     font-size: 16px;
-    margin: 5px;
-    padding: 5px;
-    transition: all 3s;
+    margin: 0;
+    padding: 0;
 }
-#cabecera{
-    
-    background:#a8a2a2;
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#primer-texto {
+    color: black;
+    font-family: 'work sans';
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.form-label {
+    display: none; /* Oculta las etiquetas de los campos de formulario */
+}
+
+.form-control {
     border-radius: 15px;
-    border: #a8a2a2;
-    box-sizing: 5px;
-    box-shadow: #a8a2a2;
-    margin: 15px;
-}
-.img-fluid {
-
-justify-content: center;
-border-radius: 15px 15px;
- width: 300px; 
- height: 100px;
- margin: 5px 15px; 
- padding: 10px;
-}
-
-.btn-1{
-    border-radius: none;
-    margin: 15px;
+    margin-bottom: 15px;
     padding: 10px;
-    float: right  ;
-    left: 15px;
-    right: 10px; 
+}
+
+.d-grid {
+    display: grid;
     
 }
 
-.carousel slide{
-border-radius: 15px;
-margin: 5px;
-height: 600px;
-}
-
-form{
-    width: 395px;
-    height: 600px;
-    margin:15px;
-    padding: 15px ;
-    overflow: hidden;
-    text-align: center;
-    background-color: #a8a2a2;
-    border-radius: 15px 15px;
-    box-shadow: #333;
-    
-}
-
-#primer-texto{
-    color: black; 
-     font-family: work sans;
-     font-weight: 600;
-     font-size: 50px;
-      padding: 15px ;
-}
-
-.form-control{
-    border-radius: 15px 15px ;
-    
-}
-.corousel{
-    margin: 10px;
+.formtext {
+    margin-top: 10px;
 }
 
 .btn {
-
-    margin-bottom: 15px;
-    overflow: hidden;
     border-radius: 15px;
+    padding: 10px 20px;
     background-color: #39A900;
     border-color: #39A900;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
 }
 
-
+.btn:hover {
+    background-color: #318200;
+    border-color: #318200;
+}
