@@ -79,7 +79,8 @@ class PedidoController extends Controller
     {
         $user = Auth::user();
         $pedido = Pedido::find($id);
-        $clientes = Cliente::pluck('pedido','id');
+        $clientes = Cliente::pluck('nombres','id');
+        
 
         return view('pedido.edit', compact('pedido','clientes'));
     }
